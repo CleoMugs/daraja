@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 keys.py
+c2b.png
+
+
 __pycache__/
 *.py[cod]
 *$py.class

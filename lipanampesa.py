@@ -29,6 +29,7 @@ r = requests.get(api_URL, auth=HTTPBasicAuth(consumer_key, consumer_secret))
 json_response = r.json()
 my_access_token = json_response['access_token']
 
+
 def lipa_na_mpesa():
 
 	access_token = my_access_token
