@@ -7,15 +7,13 @@ from utils import get_timestamp
 import keys 
 
 
-formatted_time = get_timestamp()
-
-
-decoded_password = generate_password(formatted_time)
-
 
 def lipa_na_mpesa():
 
+	formatted_time = get_timestamp()
+	decoded_password = generate_password(formatted_time)
 	access_token = generate_access_token()
+	
 	api_url = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
 
 	headers = { "Authorization": "Bearer %s" % access_token }
