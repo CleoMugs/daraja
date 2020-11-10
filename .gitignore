@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 keys.py
 c2b.png
-
+settings.py
 
 __pycache__/
 *.py[cod]
